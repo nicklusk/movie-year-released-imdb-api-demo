@@ -23,6 +23,7 @@ Type in the name of a movie in the search box/input field.  Click the button, or
 The package.json file includes what you'll need, but to be clear, you will need these two NPM packages:
 
 [imdb-api](https://www.npmjs.com/package/imdb-api)
+
 [body-parser](https://www.npmjs.com/package/body-parser)
 
     npm install --save imdb-api
