@@ -12,7 +12,7 @@ I also modified [one_page_template_nodejs](https://github.com/goldenthumb/one_pa
 
 ### Installation
 
-1.    node.js install
+1.    `node.js install`
 
 ### Usage
 
@@ -26,14 +26,14 @@ The package.json file includes what you'll need, but to be clear, you will need 
 
 [body-parser](https://www.npmjs.com/package/body-parser)
 
-2.    npm install --save imdb-api
+2.    `npm install --save imdb-api`
 
-3.    npm install --save body-parser
+3.    `npm install --save body-parser`
 
-4.    npm install
+4.    `npm install`
 
 ### Run node
 
-5.    node app
+5.    `node app`
 
-6.    http://localhost:8888
+6.    `http://localhost:8888`
