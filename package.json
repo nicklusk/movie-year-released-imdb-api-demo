@@ -1,0 +1,22 @@
+{
+  "name": "movie-year-released-imdb-api-demo",
+  "version": "1.0.0",
+  "description": "One pager that demos the imdb-api npm module by taking a movie title submission from the user and returning the year that movie was made. Probably. It might also return the year that something with a syntactically similar title was made.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.3.3",
+    "express": "^4.13.1",
+    "imdb-api": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Nope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicklusk/movie-year-released-imdb-api-demo"
+  },
+  "author": "Nick Lusk",
+  "license": "ISC"
+}
