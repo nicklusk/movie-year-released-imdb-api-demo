@@ -12,13 +12,13 @@ I also modified [one_page_template_nodejs](https://github.com/goldenthumb/one_pa
 
 ### Installation
 
-1. node.js install
+1.  node.js install
 
 ### Usage
 
 Type in the name of a movie in the search box/input field.  Click the button, or press enter, and the year of that movie's release will be fetched and displayed.  Unless you spelled something wrong.  Another use for this tool would be to check if the title of that screenplay you're working on has already been used.  If it throws an error then you're in luck, at least you know the title of your movie is original, or misspelled.
 
-#### Run npm
+### Run npm
 
 The package.json file includes what you'll need, but to be clear, you will need these two NPM packages:
 
@@ -26,14 +26,14 @@ The package.json file includes what you'll need, but to be clear, you will need 
 
 [body-parser](https://www.npmjs.com/package/body-parser)
 
-    npm install --save imdb-api
+2.  npm install --save imdb-api
 
-    npm install --save body-parser
+3.  npm install --save body-parser
 
-    npm install
+4.  npm install
 
-#### Run node
+### Run node
 
-    node app
+5.  node app
 
-http://localhost:8888
+6.  http://localhost:8888
