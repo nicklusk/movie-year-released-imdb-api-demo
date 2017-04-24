@@ -2,7 +2,7 @@
 
 	const imdb = require('imdb-api');
 	const bodyParser = require('body-parser');
-	let movie = {title: 'test', _year_data: '1909'};
+	let movie = {title: '', year: ''};
 
 	app.get('/',function(req,res){
 		res.render('index', { dynamic_textbox: '<input id="query" name="query" type="text" value="" />', movie: movie });
@@ -18,8 +18,8 @@
 		imdb.getReq({ name: req.body.query }, (err, results) => {
 				movie = results;
 				console.log('movie: ' + movie);
+				res.render('index', { dynamic_textbox: '<input id="query" name="query" type="text" value="" />', movie: movie });
 		});
-		res.render('index', { dynamic_textbox: '<input id="query" name="query" type="text" value="" />', movie: movie });
 	});
 
 
